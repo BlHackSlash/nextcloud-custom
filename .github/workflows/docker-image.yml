@@ -3,7 +3,7 @@ name: Build and Push Custom Nextcloud
 # 1. When should this run?
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * 0'
   workflow_dispatch:    # Adds a "Run workflow" button to the UI
 
 jobs:
